@@ -1,5 +1,14 @@
 {
     "configurations": [
+        
+        {
+            "name": "auto",
+            "type": "auto-debug",
+            "request": "launch",
+            "map": {
+                "*.py": "Python: Current File"
+            }
+        },
         {
             "name": "C/C++: g++-14 build and debug active file",
             "type": "cppdbg",
